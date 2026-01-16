@@ -2,11 +2,11 @@
 
 Polski przekład oficjalnej internetowej książki do nauki [języka programowania Rust][Rust Book].
 
-Przetłumaczenie tej kolubryny, w rozsądnym czasie, było możliwe dzięki autorskiemu oprogramowaniu [TranAI] napisanemu w języku Rust.
+Przetłumaczenie tej kolubryny, w rozsądnym czasie, było możliwe dzięki autorskiemu oprogramowaniu [TranAI] napisanemu w języku Rust. To samo oprogramowanie może zostać użyte do tłumaczenie jakiejkolwiek książki napisanej za pomocą [mdBook]. Oprogramowanie [mdBook] jest wykorzystywane szeroko do tworzenia przewodników i dokumentacji w świecie Rusta, ale może być wykorzystane do napisania jakiejkolwiek innej książki.
 
 
 # Techniczne aspekty
-Stworzone zostało oprogramowanie [TranAI], które jest [preprocesorem][preproc] [mdBook]’a.
+Oprogramowanie [TranAI] jest [preprocesorem][preproc] [mdBook]’a.
 Sam [preprocesor][preproc] do tłumaczenie użył modelu [LLM] [Gemini 2.5 Pro] w styczniu 2026 roku.
 
 To repozytorium jest zbiorem narzędzi potrzebnych do budowy [Książki Rusta][Rust Book].
