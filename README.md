@@ -1,6 +1,6 @@
 # Wprowadzenie
 
-Polski przekład oficjalnej internetowej książki do nauki [języka programowania Rust][Rust Book].
+Polski przekład oficjalnej internetowej podręcznika do nauki [języka programowania Rust][Rust Book].
 
 Przetłumaczenie tej kolubryny, w rozsądnym czasie, było możliwe dzięki autorskiemu oprogramowaniu [TranAI] napisanemu w języku Rust. To samo oprogramowanie może zostać użyte do tłumaczenie jakiejkolwiek książki napisanej za pomocą [mdBook]. Oprogramowanie [mdBook] jest wykorzystywane szeroko do tworzenia przewodników i dokumentacji w świecie Rusta, ale może być wykorzystane do napisania jakiejkolwiek innej książki.
 
@@ -9,7 +9,7 @@ Przetłumaczenie tej kolubryny, w rozsądnym czasie, było możliwe dzięki auto
 Oprogramowanie [TranAI] jest [preprocesorem][preproc] [mdBook]’a.
 Sam [preprocesor][preproc] do tłumaczenie użył modelu [LLM] [Gemini 2.5 Pro] w styczniu 2026 roku.
 
-To repozytorium jest zbiorem narzędzi potrzebnych do budowy [Książki Rusta][Rust Book].
+To repozytorium jest zbiorem narzędzi potrzebnych do budowy [Podręcznika Rusta][Rust Book].
 
 `tranai_cache.json` jest plikiem wykorzystywanym przez [TranAI] ponieważ [Gemini 2.5 Pro], jak na krnąbrny model przystało, przerywa generowanie tokenów w pół żądania https. [TranAI] zrzuca dane, które już udało się uzyskać, aby nie trzeba było ich tłumaczyć ponownie.
 
